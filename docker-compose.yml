@@ -18,6 +18,7 @@ services:
       - ./addons:/mnt/extra-addons
       - ./log:/var/log/odoo
       - ./data:/var/lib/odoo
+      - ./odoo:/usr/lib/python3/dist-packages/odoo
     depends_on:
       - odoo_18db
     networks:
