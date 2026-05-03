@@ -14,10 +14,7 @@ body:
       label: Odoo Version
       description: In which version(s) of Odoo does your issue occur?
       options:
-        - label: "16.0"
-        - label: "17.0"
         - label: "18.0"
-        - label: "Other (specify)"
     validations:
       required: true
   - type: markdown
